@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento');
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: url(http://timothysaccenti.com/wp-content/uploads/2016/11/0052097063Sparklehorse_SaccentiQ28_1-copy-1880x1216.jpg) fixed;
+    font-family: 'Quattrocento', serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+}
+
+.container {
+    max-width: 90%;
+}
+
+#main {
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+}
+
+#img-div {
+    display: grid;
+    width: 100%;
+}
+
+#image {
+    margin: auto;
+    border: 3px solid #333;
+    border-radius: 5px;
+    width: 75%;
+    max-width: 100%;
+}
+
+#img-caption {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+article {
+    background: #333;
+    color: #ccc;
+    border: 3px solid #333;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #ccc;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
